@@ -77,13 +77,13 @@ Go to this url: [https://github.com/fastai/fastai](https://github.com/fastai/fas
 <img alt="clone" src="/images/terminal/git_copy_url.png" class="screenshot">
 
 Then, in order to clone the fastai repo, use the friendly command "git clone” and 
-then paste the url your terminal.
+then paste the url your terminal.(If you're using Colab, you need to add "!" before the command to use Shell)
 
 <img alt="paste" src="/images/terminal/git_clone_repo_.png" class="screenshot">
 
 #### Updating your fastai repository (Downloading the missing files)
 
-When your repo is up-to-date, you should see this message.
+Enter the "/fastai" directory you've just cloned, when your repo is up-to-date, you should see this message.
 
 <img alt="pull1" src="/images/terminal/git_pull_up_to_date.png" class="screenshot">
 
@@ -105,7 +105,7 @@ One more thing, if you want to update conda, you should write this in the termin
 
 For Windows users, you will need to install a terminal with the bash shell (Mac and Linux already have one). Note that this is only necessary if you don't use one of the ready-to-run Jupyter options for the course.
 
-We recommand Windows Subsystem for Linux (WSL) and the [Ubuntu App](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) for Windows 10 users. To install it, note that you first need to activate WSL with the following steps:
+We recommend Windows Subsystem for Linux (WSL) and the [Ubuntu App](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6#activetab=pivot:overviewtab) for Windows 10 users. To install it, note that you first need to activate WSL with the following steps:
 
 1. Open the Control Panel
 2. Select 'Programs'
